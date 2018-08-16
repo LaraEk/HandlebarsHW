@@ -1,12 +1,13 @@
 ### Schema
 
-CREATE DATABASE cat_db;
-USE cat_db;
+CREATE DATABASE chuanr_db;
+USE chuanr_db;
 
-CREATE TABLE cats
+CREATE TABLE chuanr
 (
 	id int NOT NULL AUTO_INCREMENT,
-	name varchar(255) NOT NULL,
-	sleepy BOOLEAN DEFAULT false,
+	chuanrtype varchar(255) NOT NULL,
+	-- howmany INT(5) DEFAULT 1,
+	eaten BOOLEAN DEFAULT false,
 	PRIMARY KEY (id)
 );

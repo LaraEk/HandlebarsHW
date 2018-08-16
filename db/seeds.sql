@@ -1,6 +1,9 @@
-INSERT INTO cats (name) VALUES ('Meeses');
-INSERT INTO cats (name) VALUES ('Bobbi');
-INSERT INTO cats (name, sleepy) VALUES ('Sylvester', true);
-INSERT INTO cats (name, sleepy) VALUES ('Marilyn Manson', true);
-INSERT INTO cats (name, sleepy) VALUES ('Joe Biden', true);
-INSERT INTO cats (name) VALUES ('Owens');
+INSERT INTO chuanr (chuanrtype) VALUES ("lamb");
+INSERT INTO chuanr (chuanrtype) VALUES ("beef");
+INSERT INTO chuanr (chuanrtype) VALUES ("kidneys");
+INSERT INTO chuanr (chuanrtype) VALUES ("chicken hearts");
+INSERT INTO chuanr (chuanrtype) VALUES ("tofu with chives");
+INSERT INTO chuanr (chuanrtype, eaten) VALUES ("potato", false);
+INSERT INTO chuanr (chuanrtype, eaten) VALUES ("toast", false);
+INSERT INTO chuanr (chuanrtype, eaten) VALUES ("quail eggs", false);
+INSERT INTO chuanr (chuanrtype) VALUES ("sweet potato");
