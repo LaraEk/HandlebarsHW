@@ -63,7 +63,7 @@ Be sure to utilize the [MYSQL Heroku Deployment Guide](../../Supplemental/MySQLH
 
 <!-- 4. Run the `schema.sql` and `seeds.sql` files into the mysql server from the command line -->
 
-5. Now you're going to run these SQL files.
+<!-- 5. Now you're going to run these SQL files.
 
    * Make sure you're in the `db` folder of your app.
 
@@ -73,41 +73,41 @@ Be sure to utilize the [MYSQL Heroku Deployment Guide](../../Supplemental/MySQLH
 
    * Now insert the entries you defined in `seeds.sql` by running the file: `source seeds.sql`.
 
-   * Close out of the MySQL command line tool: `exit`.
+   * Close out of the MySQL command line tool: `exit`. -->
 
 #### Config Setup
 
-1. Inside your `burger` directory, create a folder named `config`.
+<!-- 1. Inside your `burger` directory, create a folder named `config`.
 
 2. Create a `connection.js` file inside `config` directory.
 
    * Inside the `connection.js` file, setup the code to connect Node to MySQL.
 
-   * Export the connection.
+   * Export the connection. -->
 
-3. Create an `orm.js` file inside `config` directory.
+<!-- 3. Create an `orm.js` file inside `config` directory.
 
-   * Import (require) `connection.js` into `orm.js`
+   * Import (require) `connection.js` into `orm.js` -->
 
-   * In the `orm.js` file, create the methods that will execute the necessary MySQL commands in the controllers. These are the methods you will need to use in order to retrieve and store data in your database.
+   <!-- * In the `orm.js` file, create the methods that will execute the necessary MySQL commands in the controllers. These are the methods you will need to use in order to retrieve and store data in your database.
 
      * `selectAll()`
      * `insertOne()`
      * `updateOne()`
 
-   * Export the ORM object in `module.exports`.
+   * Export the ORM object in `module.exports`. -->
 
 #### Model setup
 
-* Inside your `burger` directory, create a folder named `models`.
+<!-- * Inside your `burger` directory, create a folder named `models`. -->
 
-  * In `models`, make a `burger.js` file.
+  <!-- * In `models`, make a `burger.js` file.
 
     * Inside `burger.js`, import `orm.js` into `burger.js`
 
     * Also inside `burger.js`, create the code that will call the ORM functions using burger specific input for the ORM.
 
-    * Export at the end of the `burger.js` file.
+    * Export at the end of the `burger.js` file. -->
 
 #### Controller setup
 
