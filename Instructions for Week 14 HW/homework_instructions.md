@@ -126,7 +126,7 @@ Be sure to utilize the [MYSQL Heroku Deployment Guide](../../Supplemental/MySQLH
 
 <!-- 1. Inside your `burger` directory, create a folder named `views`. -->
 
-   * Create the `index.handlebars` file inside `views` directory.
+   <!-- * Create the `index.handlebars` file inside `views` directory.
 
    * Create the `layouts` directory inside `views` directory.
 
@@ -136,7 +136,7 @@ Be sure to utilize the [MYSQL Heroku Deployment Guide](../../Supplemental/MySQLH
 
      * Setup the `index.handlebars` to have the template that Handlebars can render onto.
 
-     * Create a button in `index.handlebars` that will submit the user input into the database.
+     * Create a button in `index.handlebars` that will submit the user input into the database. -->
 
 #### Directory structure
 
