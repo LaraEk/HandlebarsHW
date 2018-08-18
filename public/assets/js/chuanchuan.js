@@ -25,9 +25,13 @@ $(function() {
     // Make sure to preventDefault on a submit event.
     event.preventDefault();
 
+    console.log($("#ca").val().trim() );
+    console.log( $("eaten").val()  );
+
     var newchuanr = {
       chuanrtype: $("#ca").val().trim(),
-      eaten: $("[chuanrtype=eaten]:checked").val().trim()
+      eaten: $("eaten").val(),
+//      eaten: $("[chuanrtype=eaten]:checked").val().trim()
     };
 
     // Send the POST request.

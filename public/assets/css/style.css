@@ -4,18 +4,39 @@ body {
   background-size: fit;                     
   background-repeat: no-repeat;
   background-position: center center;
+  color: red;
 }
 
+#chuantitles {
+  Font-Family: 'Roboto Condensed', Sans-Serif;
+Font-Size: 35px;
+}
 
+.col-sm-4 {
+  padding: 50px;
+  color: red;
+}
 
+#chuanrs {
+  background-color: rgb(245, 13, 13, .5);
+  border-radius: 10px;
+  Font-Family: 'Cabin', Sans-Serif;
+  Font-Size: 16px;
+}
 
+.change-eaten {
+  background-color: #f44336;
+  color: white;
+}
 
-/* --- */
+.delete-chuanr {
+  background-color: #f44336;
+  color: white;
+}
 
 li {
   padding: 5px;
   margin: 5px;
-  background: #faebd7;
 }
 
 .label {
