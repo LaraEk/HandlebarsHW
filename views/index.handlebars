@@ -1,11 +1,11 @@
 
-<h1>Chuanr!</h1>
-
+<center><h1 class="chuanrbiggesttitle">The 串 Ordering Center!</h1></center>
+<center><h4 style="color:white">串 (Chuanr) is a Chinese street food that follows the timeless principles of "put things on sticks, put those sticks over fire, eat things on sticks."  Feel free to devour delicious 串 here!  </h4></center>
 
 <div class="row" >
 
   <div class="col-sm-4">
-    <h2>Chuanr that are not eaten!</h2>
+    <h2 class="chuanrsectiontitles">串 that are not eaten!</h2>
     <ul>
       {{#each chuanr}}
         {{#unless eaten}}
@@ -16,7 +16,7 @@
   </div> <!-- to col-sm-4 not-eaten-chuanr -->
 
   <div class="col-sm-4">
-    <h2>Chuanr that are eaten!</h2>
+    <h2 class="chuanrsectiontitles">串 that are eaten!</h2>
 
     <ul>
       {{#each chuanr}}
@@ -30,11 +30,11 @@
   <div class="col-sm-4">
     <div id="addachuar"> 
 
-      <h2>Add a Chuanr</h2>
+      <h2 class="chuanrsectiontitles">Add a 串</h2>
       <form class="create-form">
 
         <div class="form-group">
-          <label for="ca">Chuanr Type:</label>
+          <label for="ca">串 Type: &nbsp;</label>
           <input type="text" id="ca" name="chuanrtype">
         </div>
 
@@ -44,7 +44,7 @@
           {{!-- <input type="radio" name="eaten" value="0"> Not Yet Eaten --}}
         </div>
 
-        <button type="submit">Add A Chuanr!</button>
+        <button type="submit">Add A 串!</button>
       </form>
 
     </div>
